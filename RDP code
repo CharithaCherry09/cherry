@@ -25,8 +25,4 @@ def simplify(points, epsilon):
     else:
         return [points[0], points[-1]]
 
-# Example usage
-input_points = [(0, 0), (1, 2), (2, 4), (3, 1), (4, 3), (5, 5)]
-epsilon = 1.0
-simplified_points = simplify(input_points, epsilon)
-print(simplified_points)
+
