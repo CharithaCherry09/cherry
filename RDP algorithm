@@ -1,0 +1,8 @@
+   RAMER DOUGLAS PEUCKER(RDP) algorithm:
+Look at the first and last points of the line.
+Draw a line between them.
+Find the point that's farthest from this line.
+If that point is far enough from the line, keep it.
+Now, split the line into two parts at this farthest point.
+Repeat steps 1-5 for both new lines.
+Stop when all points are close enough to their lines.
