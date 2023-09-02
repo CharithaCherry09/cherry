@@ -5,7 +5,7 @@ def distance(p1, p2, p):
     x2, y2 = p2
     x, y = p
     num = abs((y2 - y1) * x - (x2 - x1) * y + x2 * y1 - y2 * x1)
-    den = math.sqrt((y2 - y1)*2 + (x2 - x1)*2)
+    den = math.sqrt((y2 - y1)**2 + (x2 - x1)**2)
     return num / den
 
 def simplify(points, epsilon):
